@@ -1,4 +1,4 @@
-// MonkeProblems v0.4
+// MonkeProblems v0.6
 
 //   w  c(..)o   (
 //    \__(-)  ____)
@@ -18,12 +18,15 @@
 		"no-unused-labels": "warn",
 		"no-unused-vars": ["warn", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
 		"no-alert": "error",
+		"no-void": "error",
 		"eqeqeq": "error",
 		"max-len": ["warn", 100],
 		"newline-before-return": "warn",
 		"for-direction": "error",
+		"no-warning-comments": ["error", {"terms": ["todo"], "location": "start"}],
 		"no-extra-boolean-cast": "error",
 		"no-extra-semi": "warn",
+		"no-empty": "error",
 		"sort-imports": ["warn", { "ignoreCase": true }],
 		"require-jsdoc": ["warn", { "require": { 
 			"FunctionDeclaration": true,
